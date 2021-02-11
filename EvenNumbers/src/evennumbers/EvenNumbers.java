@@ -1,4 +1,6 @@
 /* Author: Omran (Omi) Majumder
+ * Instructor: Dr. Alrajab
+ * Course: BCS345 JAVA Programming
  * Last Modified: 02/11/2021
  * Assignment 01
  * Returns all even numbers between 0 and 100 (inclusive) separated by a newline
@@ -12,7 +14,7 @@ public class EvenNumbers {
         for (int i = 0; i <= 100; i++) {
             // condition to execute print statement
             if (i % 2 == 0) {
-                System.out.println(i);
+                System.out.println(i); // prints even index value and newline
             }
         }
         
@@ -23,6 +25,7 @@ public class EvenNumbers {
         }
         
         int i = 0; // declare and initialize index
+        // while loop implementation for same problem
         while (i <= 100) {
             System.out.println(i);
             i += 2; // increment index by 2
